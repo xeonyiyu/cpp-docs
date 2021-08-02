@@ -85,7 +85,7 @@ void report_ratio( int top, int bottom )
 }
 ```
 
-The `report_ratio` function calls `ratio` with parameter values of `1` and `INT_MAX`. The **`double`** result is stored in `fraction`, then printed. The `report_ratio` function has a **`void`** return type, so it doesn't need to explicitly return a value. Execution of `report_ratio` "falls off the bottom" and returns no value to the caller.
+The `report_ratio` function calls `ratio` with parameter values of `top` and `bottom`. The **`double`** result is stored in `fraction`, then printed. The `report_ratio` function has a **`void`** return type, so it doesn't need to explicitly return a value. Execution of `report_ratio` "falls off the bottom" and returns no value to the caller.
 
 ```C
 int main()
